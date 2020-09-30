@@ -12,7 +12,7 @@ For all the excitement their is a dangerous side to the transfer market. In socc
 
 I know from experience how disasterous this can be. In a desperate attempt to achieve promotion, my favorite team, Sheffield Wednesday signed a striker named Jordan Rhodes, who has since proved disappointing. As a result of the Rhodes signing, and similar expensive players who didn't perform, Sheffield Wednesday recieved a 12 point deduction for breaking rules about making a profit and currently have negative points.
 
-![Championship Table](https://lh3.googleusercontent.com/sGm3cI3F1qxgVnHWgiV0L_XtxEhmGWsXNm89yANVPlsz7eOsU1Nsn7fThlVCJn8V0rbX3sgdXBG6g8elT3_1dZ8H06LuuuCXFx1ummA_)
+![Championship Table](https://lh5.googleusercontent.com/JFnIX3q7GBAb-5bwqBX38GTujRqhJ7_TBLXx9kWNTdBmyDQLFkfG3tvTUuSOkRGIZIkUWxEGWbKB9rJU5cpAMIAqmwvVVmeCsbo-nfVT)
 
 With good evaluation of player value a club can avoid the kind of disaster that Sheffield Wednesday finds itself in. In addition to the use for teams, fans can use a model that predicts transfer value to assess the transfer market in a more educated way.
 
@@ -49,7 +49,7 @@ Next, I removed all goalies from my data. I did this because the statistics for 
 
 I found that there was is a strong positive skew to my data as illustrated in the histogram below.
 
-![Histogram](https://lh3.googleusercontent.com/KxxiL8DtDAS-ldjsMhi4lSx4NzSqPB-YbfoWcK6mHoqvHIK6md2wR1gmRf9viKFCPvygGrNQbOBvB84K5trfsRVTVceNrw7ITQVRJ40)
+![Histogram](https://lh5.googleusercontent.com/1cq0tlwYOLbMSrJrbAc-a_whe9RfdSn1thRfHrhkyfpoemv13eGOol0mqNlKWX5soUVzDybM3NVeakyL6ASKKGPA8EVfOZSaUQIvMhs)
 
 ## Data Preperation
 
@@ -75,7 +75,7 @@ My next model was a support vector machine. This model also did not perform very
 
 Among my worst models was a decision tree. My decision tree had an RMSE of 12.38, worse even than my dummy model.
 
-My best performing model was a random forest. The random forest had an RMSE of 11.24.
+My best performing model was a random forest. The random forest had an RMSE of 11.39.
 
 The most complex and final model I ran was an XG boost model. The XG boost model had an rmse of 11.42, just a little worse than the random forest model.
 
